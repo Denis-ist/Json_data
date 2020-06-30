@@ -1,0 +1,20 @@
+{
+  "ЕВГЕНИЙ Е.": {
+    "name": "ЕВГЕНИЙ Е.",
+    "gender": "male",
+    "email": "evgeniyegorov5@gmail.com",
+    "age": "44",
+    "profession": "Туризм",
+    "salary": "222",
+    "education": "Высшее"
+  },
+  "user": {
+    "name": "user",
+    "gender": "female",
+    "email": "user@bk.ru",
+    "age": "44",
+    "profession": "Туризм",
+    "salary": "1212121",
+    "education": "Высшее"
+  }
+}

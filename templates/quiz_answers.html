@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты анкетировани</title>
+</head>
+<body>
+    <ul>
+        {% for username, answers in quiz.items() %}
+            <li>Пользователь: {{ username }}</li>
+            <li>
+                <ul>
+                    {% for param, value in answers.items() %}
+                        <li>{{ param }} - <b>{{ value }}</b></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
